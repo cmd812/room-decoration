@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:  black;
+    background-size: cover;
+}
+#bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+}
+#left{
+    font-size: 150px;
+    font-style: oblique;
+}
+#nav{
+    position: absolute;
+    top: 50px;
+    left: 35%;
+
+}
+#nav a{
+    padding: 30px;
+    font-size: 60px;
+    font-weight: 100px;
+    text-decoration: none;
+}
+#srch input{
+    position: absolute;
+    top: 50px;
+    left: 80%;
+    font-size: 10px;
+    height: 70px;
+    width: 450px;
+    box-sizing: border-box;
+}
+#srch :placeholder-shown{
+    font-size: 30px;
+}
+#srch button{
+    height: 20px;
+    position: absolute;
+    height: 70px;
+    width: 150px;
+    top: 50px;
+    left: 95%;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+#pic img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 70%;
+    width: 90%;
+    transform: translate(-50%,-50%);
+}
+#dsn {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    letter-spacing: 150px;
+    font-weight: 10px;
+
+}
+#dsn h2{
+    font-size: 300px;
+    color: aliceblue;
+}
+ p{
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    font-size: 40px;
+    color: white;
+}
+#dc h3{
+    position: absolute;
+    color: red;
+    font-size: 100px;
+    top: 15%;
+    left: 73%;
+    letter-spacing: 5px;
+}
+#logo{
+    position: absolute;
+    top: 88%;
+    left: 75%;
+    font-size: 1px;
+    background-color: #fff;
+}
+#logo img{
+    height: 150px;
+    width: 700px;
+}
